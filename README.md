@@ -9,6 +9,17 @@
 * kagglehub
 * sqlalchemy
 * os
+* json
+* psycopg2
+
+## Configuration File
+Create a configuraiton file, <db_config.json>. 
+Enter PostgreSQL login information to the config file (use makefile filetype):
+  {"host": "localhost",
+    "port": 5432,
+    "database": "your_database",
+    "user": "your_user",
+    "password": "your_password"}
 
 
 
